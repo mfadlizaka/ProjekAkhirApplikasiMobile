@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/download"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="@string/smp_bustanul_makmur"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="12pt" />
+
+    <EditText
+        android:id="@+id/ednama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="@string/nama_siswa"
+        android:text=""
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edtugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="@string/nilai_tugas"
+        android:text=""
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edhadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="@string/nilai_kehadiran"
+        android:text=""
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edUTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="@string/nilai_uts"
+        android:text=""
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edUAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:hint="@string/nilai_uas"
+        android:text=""
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/bhasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/h_a_s_i_l"
+        android:onClick="hasil"
+        app:backgroundTint="#079A0D"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nilai_akhir"
+        android:textSize="9pt"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/edakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:textSize="9pt"
+        android:autofillHints=""
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nilai_huruf"
+        android:textSize="9pt"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/edhuruf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:textSize="9pt"
+        android:autofillHints=""
+        android:inputType="textPersonName" />
+
+
+
+</LinearLayout>
